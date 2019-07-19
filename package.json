@@ -15,5 +15,27 @@
   "bugs": {
     "url": "https://github.com/longleduy/QRCodeApplicationServer/issues"
   },
-  "homepage": "https://github.com/longleduy/QRCodeApplicationServer#readme"
+  "homepage": "https://github.com/longleduy/QRCodeApplicationServer#readme",
+  "dependencies": {
+    "@babel/node": "^7.2.2",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/register": "^7.4.4",
+    "apollo-server-express": "^2.4.8",
+    "bcrypt": "^3.0.6",
+    "bluebird": "^3.5.4",
+    "body-parser": "^1.19.0",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "express-graphql": "^0.8.0",
+    "express-session": "^1.16.1",
+    "graphql": "^14.2.1",
+    "graphql-subscriptions": "^1.1.0",
+    "graphql-tools": "^4.0.4",
+    "jsonwebtoken": "^8.5.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4"
+  }
 }
